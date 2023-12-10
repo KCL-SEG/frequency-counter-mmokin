@@ -3,6 +3,7 @@
 
 def frequencies(items):
     frequencies = {}
+    #re
     for item in items:
         key = str(item)
         if key not in frequencies:
